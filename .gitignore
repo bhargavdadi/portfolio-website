@@ -1,0 +1,15 @@
+#virtual environment
+venv
+
+#vscode settings
+.vscode
+
+#database file
+db.sqlite3
+
+#migration files
+*/migrations/*_initial.py
+
+#cache files
+*/migrations/__pycache__
+*/__pycache__
