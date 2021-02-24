@@ -109,8 +109,8 @@ AUTHENTICATION_BACKENDS = [
     "social_core.backends.github.GithubOAuth2",
 ]
 
-SOCIAL_AUTH_GITHUB_KEY = "6f2f308856c507f1d3b1"
-SOCIAL_AUTH_GITHUB_SECRET = "cc3c07a99ccc9f1a48c5c04182747589d9d53e98" 
+SOCIAL_AUTH_GITHUB_KEY = "<Github Key>"
+SOCIAL_AUTH_GITHUB_SECRET = "<Client Key>" 
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.1/topics/i18n/
@@ -139,6 +139,6 @@ LOGOUT_REDIRECT_URL = "dashboard"
 
 EMAIL_HOST = "smtp.mailgun.org"
 EMAIL_PORT = 587
-EMAIL_HOST_USER = "postmaster@sandbox4a8dee7bd3ee4f368fc86a891c1f50fc.mailgun.org"
-EMAIL_HOST_PASSWORD = "e1bd0d67b96b0868e5ac201495a4b1b0-6e0fd3a4-de5f536e"
+EMAIL_HOST_USER = "<Host User>"
+EMAIL_HOST_PASSWORD = "<Password>"
 EMAIL_USE_TLS = True
